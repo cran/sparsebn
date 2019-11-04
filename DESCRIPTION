@@ -1,7 +1,7 @@
 Package: sparsebn
 Title: Learning Sparse Bayesian Networks from High-Dimensional Data
-Version: 0.0.5
-Date: 2017-09-11
+Version: 0.1.0
+Date: 2019-11-05
 Authors@R: c(
     person("Bryon", "Aragam", email = "sparsebn@gmail.com", role = c("aut", "cre")),
     person("Jiaying", "Gu", role = c("aut")),
@@ -16,14 +16,14 @@ Suggests: knitr, rmarkdown, mvtnorm, igraph, graph, testthat
 URL: https://github.com/itsrainingdata/sparsebn
 BugReports: https://github.com/itsrainingdata/sparsebn/issues
 License: GPL (>= 2)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 LazyData: true
 NeedsCompilation: no
-Packaged: 2017-09-12 03:04:22 UTC; Zigmund-2
+Packaged: 2019-11-04 18:25:46 UTC; naragam
 Author: Bryon Aragam [aut, cre],
   Jiaying Gu [aut],
   Dacheng Zhang [aut],
   Qing Zhou [aut]
 Repository: CRAN
-Date/Publication: 2017-09-12 06:41:09 UTC
+Date/Publication: 2019-11-04 19:50:02 UTC
