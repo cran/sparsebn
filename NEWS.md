@@ -1,3 +1,9 @@
+# sparsebn 0.1.1
+
+## Bug fixes
+
+* Fixed an issue with the intervention list for the continuous cytometry data (no changes to the dataset)
+
 # sparsebn 0.1.0
 
 ## Notes

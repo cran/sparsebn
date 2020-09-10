@@ -4,7 +4,8 @@
 \name{pathfinder}
 \alias{pathfinder}
 \title{The pathfinder network}
-\format{A \code{\link{list}} with four components:
+\format{
+A \code{\link{list}} with four components:
 
 \itemize{
 \item \code{dag} An \code{\link[sparsebnUtils]{edgeList}} containing the pathfinder network (109 nodes, 195 edges).
@@ -12,13 +13,16 @@
 \item \code{ivn} A \code{\link{list}} specifying which nodes are under intervention in each observation; since this dataset
 is purely observational, this is just \code{NULL}. Compatible with the input to \code{\link[sparsebnUtils]{sparsebnData}}.
 \item \code{cov} Covariance matrix used to generate the data.
-}}
+}
+
+An \code{\link{edgeList}} object with 109 nodes and 195 edges.
+}
 \usage{
 data(pathfinder)
 }
 \description{
 Simulated data and network for the pathfinder network from the
-\href{http://www.bnlearn.com/bnrepository/#pathfinder}{Bayesian network repository}.
+\href{https://www.bnlearn.com/bnrepository/}{Bayesian network repository}.
 Pathfinder is an expert system developed by
 \href{http://heckerman.com/david/HN92cbr.pdf}{Heckerman et. al (1992)} [1]
 to assist with the diagnosis of lymph-node diseases.

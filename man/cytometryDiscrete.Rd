@@ -4,20 +4,22 @@
 \name{cytometryDiscrete}
 \alias{cytometryDiscrete}
 \title{The discrete cytometry network}
-\format{A \code{\link{list}} with three components:
+\format{
+A \code{\link{list}} with three components:
 
 \itemize{
 \item \code{dag} An \code{\link[sparsebnUtils]{edgeList}} containing the consensus network (11 nodes, 17 edges).
 \item \code{data} A \code{\link{data.frame}} with 11 variables and 5400 observations.
 \item \code{ivn} A \code{\link{list}} specifying which nodes are under intervention in each observation.
 Compatible with the input to \code{\link[sparsebnUtils]{sparsebnData}}.
-}}
+}
+}
 \usage{
 data(cytometryDiscrete)
 }
 \description{
 Data and network for analyzing the flow cytometry experiment
-from \href{http://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
+from \href{https://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
 The data is a cleaned and discretized version of the raw data (see
 \code{\link{cytometryContinuous}} for details) from these experiments.
 }
@@ -34,6 +36,6 @@ dat <- sparsebnData(cytometryDiscrete$data, type = "d", ivn = cytometryDiscrete$
 
 }
 \references{
-[1] Sachs, Karen, et al. "\href{http://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
+[1] Sachs, Karen, et al. "\href{https://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
 }
 \keyword{datasets}

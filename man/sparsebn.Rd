@@ -3,7 +3,6 @@
 \docType{package}
 \name{sparsebn}
 \alias{sparsebn}
-\alias{sparsebn-package}
 \title{sparsebn: Learning Sparse Bayesian Networks from High-Dimensional Data.}
 \description{
 Methods for learning sparse Bayesian networks and other graphical models from

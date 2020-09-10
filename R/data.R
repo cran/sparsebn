@@ -1,7 +1,7 @@
 #' The pathfinder network
 #'
 #' Simulated data and network for the pathfinder network from the
-#' \href{http://www.bnlearn.com/bnrepository/#pathfinder}{Bayesian network repository}.
+#' \href{https://www.bnlearn.com/bnrepository/}{Bayesian network repository}.
 #' Pathfinder is an expert system developed by
 #' \href{http://heckerman.com/david/HN92cbr.pdf}{Heckerman et. al (1992)} [1]
 #' to assist with the diagnosis of lymph-node diseases.
@@ -47,7 +47,7 @@
 #' The discrete cytometry network
 #'
 #' Data and network for analyzing the flow cytometry experiment
-#' from \href{http://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
+#' from \href{https://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
 #' The data is a cleaned and discretized version of the raw data (see
 #' \code{\link{cytometryContinuous}} for details) from these experiments.
 #'
@@ -69,7 +69,7 @@
 #' data(cytometryDiscrete)
 #'
 #' @references
-#' [1] Sachs, Karen, et al. "\href{http://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
+#' [1] Sachs, Karen, et al. "\href{https://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
 #'
 #' @examples
 #' # Create a valid sparsebnData object from the cytometry data
@@ -81,7 +81,7 @@
 #' The continuous cytometry network
 #'
 #' Data and network for analyzing the flow cytometry experiment
-#' from \href{http://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
+#' from \href{https://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
 #' This dataset contains the raw measurements from these experiments.
 #'
 #' The dataset consists of n = 7466 observations of p = 11 continuous
@@ -104,7 +104,7 @@
 #' data(cytometryContinuous)
 #'
 #' @references
-#' [1] Sachs, Karen, et al. "\href{http://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
+#' [1] Sachs, Karen, et al. "\href{https://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
 #'
 #' @examples
 #' # Create a valid sparsebnData object from the cytometry data

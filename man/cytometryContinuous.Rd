@@ -4,20 +4,22 @@
 \name{cytometryContinuous}
 \alias{cytometryContinuous}
 \title{The continuous cytometry network}
-\format{A \code{\link{list}} with three components:
+\format{
+A \code{\link{list}} with three components:
 
 \itemize{
 \item \code{dag} An \code{\link[sparsebnUtils]{edgeList}} containing the consensus network (11 nodes, 17 edges).
 \item \code{data} A \code{\link{data.frame}} with 11 variables and 7466 observations.
 \item \code{ivn} A \code{\link{list}} specifying which nodes are under intervention in each observation.
 Compatible with the input to \code{\link[sparsebnUtils]{sparsebnData}}.
-}}
+}
+}
 \usage{
 data(cytometryContinuous)
 }
 \description{
 Data and network for analyzing the flow cytometry experiment
-from \href{http://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
+from \href{https://science.sciencemag.org/content/308/5721/523.long}{Sachs et al. (2005)} [1].
 This dataset contains the raw measurements from these experiments.
 }
 \details{
@@ -35,6 +37,6 @@ dat <- sparsebnData(cytometryContinuous$data, type = "c", ivn = cytometryContinu
 
 }
 \references{
-[1] Sachs, Karen, et al. "\href{http://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
+[1] Sachs, Karen, et al. "\href{https://science.sciencemag.org/content/308/5721/523.long}{Causal protein-signaling networks derived from multiparameter single-cell data}." Science 308.5721 (2005): 523-529.
 }
 \keyword{datasets}

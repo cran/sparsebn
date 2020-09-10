@@ -39,7 +39,7 @@ dags
 
 ## Example: Learning the pathfinder network
 
-In this section, we will reconstruct the pathfinder network from the [Bayesian network repository](http://www.bnlearn.com/bnrepository/#pathfinder). The pathfinder network has 109 nodes and 195 edges.
+In this section, we will reconstruct the pathfinder network from the [Bayesian network repository](https://www.bnlearn.com/bnrepository/). The pathfinder network has 109 nodes and 195 edges.
 
 In order to use the methods in the sparsebn package, we need to indicate what kind of data we are working with by wrapping the data into a `sparsebnData` object. First we load the data and then create a `sparsebnData` object:
 
