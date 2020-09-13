@@ -4,8 +4,7 @@
 \name{pathfinder}
 \alias{pathfinder}
 \title{The pathfinder network}
-\format{
-A \code{\link{list}} with four components:
+\format{A \code{\link{list}} with four components:
 
 \itemize{
 \item \code{dag} An \code{\link[sparsebnUtils]{edgeList}} containing the pathfinder network (109 nodes, 195 edges).
@@ -13,10 +12,7 @@ A \code{\link{list}} with four components:
 \item \code{ivn} A \code{\link{list}} specifying which nodes are under intervention in each observation; since this dataset
 is purely observational, this is just \code{NULL}. Compatible with the input to \code{\link[sparsebnUtils]{sparsebnData}}.
 \item \code{cov} Covariance matrix used to generate the data.
-}
-
-An \code{\link{edgeList}} object with 109 nodes and 195 edges.
-}
+}}
 \usage{
 data(pathfinder)
 }

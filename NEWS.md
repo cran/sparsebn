@@ -1,4 +1,4 @@
-# sparsebn 0.1.1
+# sparsebn 0.1.2
 
 ## Bug fixes
 
